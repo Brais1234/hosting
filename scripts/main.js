@@ -10,13 +10,13 @@ myImage.onclick = function() {
 
   let mySrc = myImage.getAttribute('src');
 
-  if(mySrc === 'images/firefox-icon.png') {
+  if(mySrc === 'images/Chrome.png') {
 
-    myImage.setAttribute ('src','images/firefox2.png');
+    myImage.setAttribute ('src','images/Internet explorer.png');
 
   } else {
 
-    myImage.setAttribute ('src','images/firefox-icon.png');
+    myImage.setAttribute ('src','images/Chrome.png');
 
   }
 
@@ -46,7 +46,7 @@ function setUserName() {
 
     localStorage.setItem('name', myName);
 
-    myHeading.innerHTML = 'Mozilla is cool, ' + myName;
+    myHeading.innerHTML = '¿Qué navegador es mejor?, ' + myName;
 
   }
 
@@ -62,7 +62,7 @@ if(!localStorage.getItem('name')) {
 
   let storedName = localStorage.getItem('name');
 
-  myHeading.innerHTML = 'Mozilla is cool, ' + storedName;
+  myHeading.innerHTML = 'Me gusta el Chrome, ' + storedName;
 
 }
 
