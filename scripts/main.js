@@ -11,13 +11,13 @@ myImage.onclick = function() {
 
   let mySrc = myImage.getAttribute('src');
 
-  if(mySrc === 'images/Chrome.png') {
+  if(mySrc === 'images/Messi.png') {
 
-    myImage.setAttribute ('src','images/Explorer.png');
+    myImage.setAttribute ('src','images/Cristiano.png');
 
   } else {
 
-    myImage.setAttribute ('src','images/Chrome.png');
+    myImage.setAttribute ('src','images/Messi.png');
 
   }
 
