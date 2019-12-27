@@ -63,7 +63,7 @@ if(!localStorage.getItem('name')) {
 
   let storedName = localStorage.getItem('name');
 
-  myHeading.innerHTML = 'Mozilla is cool, ' + storedName;
+  myHeading.innerHTML = 'Messi es el mejor, asúmelo ' + storedName;
 
 }
 
