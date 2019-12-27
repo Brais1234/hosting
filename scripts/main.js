@@ -11,13 +11,13 @@ myImage.onclick = function() {
 
   let mySrc = myImage.getAttribute('src');
 
-  if(mySrc === 'images/firefox-icon.png') {
+  if(mySrc === 'images/Chrome.png') {
 
-    myImage.setAttribute ('src','images/firefox2.png');
+    myImage.setAttribute ('src','images/Explorer.png');
 
   } else {
 
-    myImage.setAttribute ('src','images/firefox-icon.png');
+    myImage.setAttribute ('src','images/Chrome.png');
 
   }
 
