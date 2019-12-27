@@ -47,7 +47,7 @@ function setUserName() {
 
     localStorage.setItem('name', myName);
 
-    myHeading.innerHTML = 'Mesi es mejor, asúmelo ' + myName;
+    myHeading.innerHTML = 'Messi es mejor, asúmelo ' + myName;
 
   }
 
