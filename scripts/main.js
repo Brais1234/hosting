@@ -12,7 +12,7 @@ myImage.onclick = function() {
 
   if(mySrc === 'images/Chrome.png') {
 
-    myImage.setAttribute ('src','images/Internet explorer.png');
+    myImage.setAttribute ('src','images/Explorer.png');
 
   } else {
 
