@@ -1,3 +1,4 @@
+
 // Image switcher code
 
 
@@ -46,7 +47,7 @@ function setUserName() {
 
     localStorage.setItem('name', myName);
 
-    myHeading.innerHTML = '¿Qué navegador es mejor?, ' + myName;
+    myHeading.innerHTML = 'Mozilla is cool, ' + myName;
 
   }
 
@@ -62,7 +63,7 @@ if(!localStorage.getItem('name')) {
 
   let storedName = localStorage.getItem('name');
 
-  myHeading.innerHTML = 'Me gusta el Chrome, ' + storedName;
+  myHeading.innerHTML = 'Mozilla is cool, ' + storedName;
 
 }
 
