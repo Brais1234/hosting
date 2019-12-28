@@ -89,8 +89,8 @@ myButton.onclick = function() {
         <!-- Cat walking GIF from: http://www.anniemation.com/clip_art/graphics.html -->
         <img id="cat" src="https://www.google.es/imgres?imgurl=https%3A%2F%2Fsgfm.elcorteingles.es%2FSGFM%2Fdctm%2FMEDIA03%2F201806%2F06%2F00108418312347____3__640x640.jpg&imgrefurl=https%3A%2F%2Fwww.elcorteingles.es%2Fdeportes%2FA24097825-balon-de-futbol-la-liga-2018-2019-strike-nike%2F&tbnid=JB27SgBCsaIvtM&vet=12ahUKEwi62faMuNjmAhUJrhoKHZg5BosQMygHegUIARDzAg..i&docid=_N9BW9pdoZvHQM&w=640&h=640&q=balon%20de%20futbol&safe=active&ved=2ahUKEwi62faMuNjmAhUJrhoKHZg5BosQMygHegUIARDzAg">
     </div>
-   
-  <script>
+  
+
    var catEl = document.getElementById("cat");
  
   var startTime = new Date().getTime();
