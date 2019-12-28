@@ -74,8 +74,8 @@ myButton.onclick = function() {
   setUserName();
 
 }
- <img id="cat" src="https://www.gifsanimados.org/data/media/418/pelota-imagen-animada-0044.gif">
-	<script>
+
+
    var catEl = document.getElementById("cat");
  
   var startTime = new Date().getTime();
@@ -87,4 +87,4 @@ myButton.onclick = function() {
     window.requestAnimationFrame(walkTheCat);
   };
   walkTheCat();
-	  </script>
+	 
